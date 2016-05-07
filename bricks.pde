@@ -41,7 +41,7 @@ class bricks {
     fill(175);    // light gray fill
     
     // draw the mover
-    rect(location.x, location.y, 25, 25);
+    rect(location.x, location.y, 30, 25);
     
   }
   
