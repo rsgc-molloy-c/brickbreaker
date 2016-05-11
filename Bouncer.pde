@@ -24,7 +24,7 @@ class Bouncer {
     fill(175);
   
     // Display the ball at the location (x, y)
-    ellipse(location.x, location.y, 16, 16);
+    ellipse(location.x, location.y, 20, 20);
   }
   
   // check for edges

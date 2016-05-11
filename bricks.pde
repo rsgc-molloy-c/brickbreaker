@@ -35,13 +35,13 @@ class bricks {
   }
   
   // show the object
-  void display() {
+  void display(int a, int s) {
     
     stroke(0);    // black border
     fill(175);    // light gray fill
     
     // draw the mover
-    rect(location.x, location.y, 30, 25);
+    rect(location.x, location.y, a, s);
     
   }
   
